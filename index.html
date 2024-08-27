@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <img src="\images.jpeg" alt="Profile Photo" class="profile-photo">
+            <h1>Hi, I'm <span id="name">Tushar</span></h1>
+            <p class="animated-text">Front-End Developer | Designer | Coder</p>
+            <a href="#projects" class="cta">View My Work</a>
+            <a href="#about" class="cta">About Me</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate developer with experience in creating dynamic and responsive websites. I love crafting clean code and engaging user experiences.</p>
+        <div class="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML5/CSS3</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-item">
+                <img src="\construction-building-architecture-concept_53876-123773.jpg" alt="Project 1">
+                <div class="project-info">
+                    <h3>moonproduction&Studio</h3>
+                    <p>Production House website using HTML CSS JavaScript.</p>
+                    <a href="https://moonproduction.netlify.app/" target="_blank">View Project</a>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="\construction-warning-sign-icon-concept_53876-123765.jpg" alt="Project 2">
+                <div class="project-info">
+                    <h3>Tushar Photography page </h3>
+                    <p>A responsive Photography page  using HTMl CSS JavaScript</p>
+                    <a href="https://moonproduction.netlify.app/" target="_blank">View Project</a>
+                </div>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Services I Offer</h2>
+        <div class="services-list">
+            <div class="service-item">
+                <h3>Web Development</h3>
+                <p>Building responsive and dynamic websites using the latest technologies.</p>
+            </div>
+            <div class="service-item">
+                <h3>UI/UX Design</h3>
+                <p>Designing user-friendly and visually appealing interfaces.</p>
+            </div>
+            <!-- Add more services as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <p id="responseMessage"></p>
+
+     <section id="social-links" class="social-links">
+       <div class="wrapper">
+        <a href="https://www.instagram.com/tusharoy007/" target="_blank"> 
+              <div class="button">
+                <div class="icon">
+                   <i class="fab fa-facebook-f"></i>
+                </div>
+                <span>Facebook</span>
+             </div>
+        </a>
+
+        <a href="https://www.instagram.com/tusharoy007/" target="_blank">
+             <div class="button">
+                <div class="icon">
+                   <i class="fab fa-twitter"></i>
+                </div>
+                <span>Twitter</span>
+             </div>
+            </a>
+
+            
+             <div class="button">
+                <a href="https://www.instagram.com/tusharoy007/" target="_blank">
+                <div class="icon">
+                   <i class="fab fa-instagram"></i>
+                </div>
+                <span>Instagram</span>
+             </div>
+            </a>
+             <div class="button">
+                <div class="icon">
+                   <i class="fab fa-github"></i>
+                </div>
+                <span>Github</span>
+             </div>
+             <div class="button">
+                <div class="icon">
+                   <i class="fab fa-youtube"></i>
+                </div>
+                <span>YouTube</span>
+             </div>
+          </div>
+        
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Tushar Roy. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
